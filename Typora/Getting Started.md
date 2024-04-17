@@ -7,7 +7,7 @@ BlitzTrader empowers developers with a comprehensive framework to build trading 
 The BlitzTrader API was built using Microsoft® .Net 4.7.1 technology. The BlitzTrader event architecture decouples Strategy development from the trading platform, ensuring that the most critical events are alerted to your Strategy in real-time for informed decision-making.
 </div>
 
-The Blitz SDK is available for the .NET framework 4.7.1 or above. It comprises a suite of libraries and tools meticulously designed to streamline and accelerate trading strategy development for .NET developers. Whether crafting strategies for personal trading endeavors or catering to institutions such as proprietary trading firms or seasoned traders, the Blitz SDK equips developers with convenient classes and frameworks.
+The Blitz SDK is available for the .NET framework `4.7.1` or above. It comprises a suite of libraries and tools meticulously designed to streamline and accelerate trading strategy development for .NET developers. Whether crafting strategies for personal trading endeavors or catering to institutions such as proprietary trading firms or seasoned traders, the Blitz SDK equips developers with convenient classes and frameworks.
 
 BlitzTrader stands out for its commitment to streamlining the development process of trading strategies to empower the entire algorithmic trading industry. Through this initiative, BlitzTrader not only enhances the efficiency and consistency of strategy creation but also fosters a community where best practices are shared and innovation thrives. Streamlining the strategy creation process is at the core of BlitzTrader.  
 
@@ -41,12 +41,13 @@ BlitzTrader .NET SDK
 - The sample market data is required to simulate and test your strategy or  
 it can be tested with live market data.  
 - You have access of valid BlitzTrader license file to be placed in BlitzTrader application server  
-installation folder.
+  installation folder.
 
   ### **SDK Architecture**  
-The following diagram illustrates the overall architecture of the BlitzTrader .NET SDK  
 
-<center![imgxt](https://github.com/pcnetworking/Markdown/blob/main/introduction.png?raw=true)
+  The following diagram illustrates the overall architecture of the BlitzTrader .NET SDK  
+
+  ![imgxt](https://github.com/pcnetworking/Markdown/blob/main/introduction.png?raw=true)
 
 As shown in the illustration, the programmable strategy is loaded in Blitz Server Strategy component container and provides an interface of communication with internal OMS, RMS, Market Data Feed server and Trading Dashboard. The Blitz Server has all the capabilities to connect with any exchanges or broker OMS APIs for both order routing and market data information.
 
